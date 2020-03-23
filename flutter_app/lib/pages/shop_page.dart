@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class CartPage extends StatelessWidget {
+class ShopPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Scaffold(
         body: Center(
-          child: Text("会员中心"),
+          child: Text("购物车"),
         ),
       ),
     );
