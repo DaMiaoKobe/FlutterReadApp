@@ -13,13 +13,13 @@ class IndexPage extends StatefulWidget {
 
 class _IndexPageState extends State<IndexPage> {
   final List<BottomNavigationBarItem> bottomTabs = [
-    BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), title: Text("首页")),
+    BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), title: Text("书架")),
     BottomNavigationBarItem(
-        icon: Icon(CupertinoIcons.search), title: Text("分类")),
+        icon: Icon(CupertinoIcons.search), title: Text("社区")),
     BottomNavigationBarItem(
-        icon: Icon(CupertinoIcons.shopping_cart), title: Text("购物车")),
+        icon: Icon(CupertinoIcons.shopping_cart), title: Text("发现")),
     BottomNavigationBarItem(
-        icon: Icon(CupertinoIcons.profile_circled), title: Text("会员中心"))
+        icon: Icon(CupertinoIcons.profile_circled), title: Text("我的"))
   ];
 
   final List tabBodies = [HomePage(), CategoryPage(), ShopPage(), CartPage()];
