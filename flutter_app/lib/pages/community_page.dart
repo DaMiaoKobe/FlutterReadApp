@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
             } else {
               return Center(
                 child: Text(
-                  "加载中...",
+                  "轮播加载中...",
                   style: TextStyle(
                       fontSize:
                           ScreenUtil().setSp(28, allowFontScalingSelf: false)),
